@@ -1,0 +1,95 @@
+
+
+:root{
+    --text-color:#404040;
+    --red-color:#b30000;
+    --blu-color:#1a75ff;
+    --yellow-color:#cccc00;
+    --pink-color:#ff3399;
+    --black-color:#000000;
+    --background-color :#4da6ff;
+    --header-height : 180px; 
+    --while-color:#ffffff;
+}
+
+/* 
+*:before,
+*:after {
+  box-sizing: border-box;
+} */
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+
+}
+.slide{
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 50px;
+  border-radius: 10px;
+  position: relative;
+}
+.slide-auto{
+border-radius: 10px;
+
+}
+.slide-auto-img{
+  width: 1000px;
+  height: 400px;
+  float: left;
+  border-radius: 10px;
+}
+.slide-auto-a{
+  display: flex;
+  width: 100000px;
+  transition: all 1s;
+}
+.slide-directional{
+  position: absolute;
+  color: var(--while-color);
+  font-size: 30px;
+  top:52%;
+  padding-left: 5px;
+}
+
+.slide-directional i:last-child{
+  position: relative;
+  left: 945px;
+}
+
+@keyframes product {
+  from{
+      opacity: 0;
+      transform: translatey(15%);
+  }
+  to{
+      opacity: 1;
+      transform: translatey(0);
+  }
+}
+@keyframes sub-megaGrowth{
+  from{
+      opacity:0 ;
+      transform: translateY(-2%);
+  }
+  to{
+      opacity:1 ;
+      transform: translateY(1);
+  }
+}
